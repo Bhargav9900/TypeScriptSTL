@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var hello_1 = require("./hello");
+var h = require("./hello");
+console.log(hello_1.message);
+var car = new hello_1.Car("Nexon", "TATA", 567777.90);
+car.showCarDeatils();
+console.log("Addition is " + (0, hello_1.add)(45, 65));
+console.log("Subtraction: " + h.sub(70, 65));
+var bike = new h.Bike("Splender", "Honda", 89000.00);
+bike.showBikeDeatils();
